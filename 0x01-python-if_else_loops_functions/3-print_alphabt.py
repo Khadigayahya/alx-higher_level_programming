@@ -1,4 +1,8 @@
 #!/usr/bin/python3
-for a in range(ord("a"), ord("z") + 1):
-    if chr(a) is not "q" and chr(a) is not "e":
-        print(f"{chr(a):s}", end="")
+number = 97
+while(number < 123):
+    if 113 == number or 101 == number:
+        number += 1
+        continue
+    print("{:s}".format(chr(number)), end='')
+    number += 1)
